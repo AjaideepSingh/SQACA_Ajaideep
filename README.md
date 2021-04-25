@@ -20,7 +20,7 @@ To find out the code coverage of a java class you simply right click on the clas
 *The above figure shows the code coverage results after unit tests have been written, We can straight away note the gap closed*
 
 #### The gap closing after writing unit tests for the Driver class
-![image info](pictures/codecoverageaftertestswritten.PNG)
+![image info](pictures/codecoverageaftertestswritten.png)
 
 #### POJO tests passing
 ![image info](pictures/pojoTestsPassing.PNG)
