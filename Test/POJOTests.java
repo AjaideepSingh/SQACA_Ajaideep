@@ -1,8 +1,6 @@
 
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class POJOTests {
@@ -18,7 +16,6 @@ class POJOTests {
         Student student = new Student();
         student.setFirstName("Ajai");
         student.setLastName("Singh");
-        ArrayList<Topic> topics = new ArrayList<>();
         Topic topic = new Topic();
         topic.setTopicName("OOSD");
         Rubric rubric = new Rubric("implementation", 3);
@@ -29,8 +26,7 @@ class POJOTests {
         rubrics.add(rubric1);
         rubrics.add(rubric2);
         topic.setRubrics(rubrics);
-        topics.add(topic);
-        student.setTopics(topics);
+        student.setTopic(topic);
         assertEquals("Ajai",student.getFirstName());
         assertEquals("Singh",student.getLastName());
     }

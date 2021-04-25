@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Student {
     private String firstName;
     private String lastName;
-    private ArrayList<Topic> topics;
+    private Topic topic;
 
     public Student() {
 
@@ -25,26 +25,26 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public ArrayList<Topic> getTopics() {
-        return topics;
+    public Topic getTopic() {
+        return topic;
     }
 
-    public void setTopics(ArrayList<Topic> topics) {
-        this.topics = topics;
+    public void setTopic(Topic topic) {
+        this.topic = topic;
     }
 
-    public Student(String firstName, String lastName, ArrayList<Topic> topics) {
+    public Student(String firstName, String lastName, Topic topic) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.topics = topics;
+        this.topic = topic;
     }
 
     @Override
     public String toString() {
-        return "Student: " +
-                "first Name: " + firstName + '\'' +
-                ", last Name: " + lastName + '\'' +
-                ", topics: " + topics +
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", topic=" + topic +
                 '}';
     }
 }
