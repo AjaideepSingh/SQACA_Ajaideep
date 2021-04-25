@@ -12,8 +12,8 @@ To find out the code coverage of a java class you simply right click on the clas
 - Not this may vary based on the IDE you are using
 
 #### Before writing any unit tests
-![image info](./pictures/noCodeCoverage.png)
+![image info](pictures/noCodeCoverage.png)
 
 
 #### The gap closing after writing unit tests for POJOs
-![image info](./pictures/POJOSafterTest.png)
+![image info](pictures/POJOSafterTest.png)
